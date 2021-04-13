@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  border-bottom: 1px solid gray;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 5px;
+}
+.info > h4,
+p {
+  display: inline-block;
+}
+
+.wrapper:hover {
+  background-color: #e8e8e8;
+  cursor: pointer;
+}
